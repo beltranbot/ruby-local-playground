@@ -12,4 +12,6 @@ RUN useradd -m rubyuser
 
 USER rubyuser
 
+RUN gem install bundler
+
 WORKDIR /usr/src/app
