@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 RUN apt update && apt install -y ruby ruby`ruby -e 'puts RUBY_VERSION[/\d+\.\d+/]'`-dev
 
